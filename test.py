@@ -898,9 +898,9 @@
 # else:
 #     print("자세한건 나무위키에서")
 
-import requests
+# import requests
 
-응답 = requests.get("https://dog.ceo/api/breeds/image/random")
-if 응답.status_code == 200:
-    print(응답.json())
+# 응답 = requests.get("https://dog.ceo/api/breeds/image/random")
+# if 응답.status_code == 200:
+#     print(응답.json())
 
